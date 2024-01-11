@@ -2,112 +2,232 @@ import Image from 'next/image'
 
 export default function Home() {
   return (
-    <main className="flex min-h-screen flex-col items-center justify-between p-24">
-      <div className="z-10 max-w-5xl w-full items-center justify-between font-mono text-sm lg:flex">
-        <p className="fixed left-0 top-0 flex w-full justify-center border-b border-gray-300 bg-gradient-to-b from-zinc-200 pb-6 pt-8 backdrop-blur-2xl dark:border-neutral-800 dark:bg-zinc-800/30 dark:from-inherit lg:static lg:w-auto  lg:rounded-xl lg:border lg:bg-gray-200 lg:p-4 lg:dark:bg-zinc-800/30">
-          Get started by editing&nbsp;
-          <code className="font-mono font-bold">app/page.tsx</code>
-        </p>
-        <div className="fixed bottom-0 left-0 flex h-48 w-full items-end justify-center bg-gradient-to-t from-white via-white dark:from-black dark:via-black lg:static lg:h-auto lg:w-auto lg:bg-none">
-          <a
-            className="pointer-events-none flex place-items-center gap-2 p-8 lg:pointer-events-auto lg:p-0"
-            href="https://vercel.com?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            By{' '}
-            <Image
-              src="/vercel.svg"
-              alt="Vercel Logo"
-              className="dark:invert"
-              width={100}
-              height={24}
-              priority
-            />
-          </a>
+    <div className="landing-page-studio">
+      <div className="div">
+        <div className="top-menu">
+          <p className="a-studio">
+            <span className="text-wrapper">A+</span>
+            <span className="span"> Studio</span>
+          </p>
+          <div className="navbar">
+            <div className="text-wrapper-2">Home</div>
+            <div className="text-wrapper-3">What We Do</div>
+            <div className="text-wrapper-4">Service</div>
+            <div className="text-wrapper-5">Project</div>
+            <div className="text-wrapper-6">Blog</div>
+            <div className="text-wrapper-7">Contact</div>
+          </div>
         </div>
+        <div className="hero-headline">
+          <div className="overlap">
+            <div className="dot-ornament">
+              <img className="dot" alt="Dot" src="/dot-4.png" />
+              <img className="img" alt="Dot" src="/dot-4.png" />
+            </div>
+            <div className="content">
+              <div className="text-wrapper-8">A Digital Product Agency</div>
+              <p className="p">
+                Leading digital agency with solid design and development expertise. We build readymade websites, mobile
+                applications, and elaborate online business services.
+              </p>
+              <div className="CTA-contact-now">
+                <div className="text-wrapper-9">Contact Now</div>
+              </div>
+            </div>
+          </div>
+          <div className="overlap-group">
+            <div className="rectangle" />
+            <div className="ellipse" />
+            <img className="image" alt="Image" src="/image-8.png" />
+          </div>
+        </div>
+        <div className="our-client">
+          <p className="text-wrapper-10">Several selected clients, who already believe in our service.</p>
+          <div className="text-wrapper-8">Our Client</div>
+          <img className="uber-eats-logo" alt="Uber eats logo" src="/uber-eats-logo.svg" />
+          <img className="airbnb-logo" alt="Airbnb logo" src="/airbnb-logo.svg" />
+          <img className="google-logo" alt="Google logo" src="/google-logo.svg" />
+          <img className="amazon-logo" alt="Amazon logo" src="/amazon-logo.svg" />
+        </div>
+        <div className="how-can-we-help">
+          <div className="overlap-2">
+            <div className="ellipse-2" />
+            <div className="group">
+              <img className="dot-2" alt="Dot" src="/dot-3.png" />
+              <img className="img" alt="Dot" src="/dot-3.png" />
+            </div>
+            <div className="rectangle-2" />
+            <div className="rectangle-3" />
+            <div className="group-2">
+              <p className="text-wrapper-11">
+                We build readymade websites, mobile applications, and elaborate online business services.
+              </p>
+              <div className="div-wrapper">
+                <p className="text-wrapper-12">How can we help your Business ?</p>
+              </div>
+            </div>
+            <div className="overlap-group-wrapper">
+              <div className="overlap-group-2">
+                <div className="box-search-wrapper">
+                  <img className="img-2" alt="Box search" src="/box-search-1.svg" />
+                </div>
+                <p className="text-wrapper-13">We present you a proposal and discuss niffty-gritty like</p>
+                <div className="text-wrapper-14">Business Idea Planning</div>
+              </div>
+            </div>
+            <div className="overlap-wrapper">
+              <div className="overlap-group-2">
+                <div className="empty-wallet-wrapper">
+                  <img className="img-2" alt="Empty wallet" src="/empty-wallet-1.svg" />
+                </div>
+                <p className="text-wrapper-13">Protocols apart from aengage models, pricing billing</p>
+                <div className="text-wrapper-15">Financial Planning System</div>
+              </div>
+            </div>
+            <div className="group-3">
+              <div className="overlap-group-2">
+                <div className="chart-square-wrapper">
+                  <img className="img-2" alt="Chart square" src="/chart-square-1.svg" />
+                </div>
+                <p className="text-wrapper-13">Protocols apart from aengage models, pricing billing</p>
+                <div className="text-wrapper-16">Market Analysis Project</div>
+              </div>
+            </div>
+            <div className="group-4">
+              <div className="overlap-group-2">
+                <div className="code-wrapper">
+                  <img className="img-2" alt="Code" src="/code-1-1.svg" />
+                </div>
+                <p className="text-wrapper-13">Communication protocols apart from engagement models</p>
+                <div className="text-wrapper-17">Development Website and App</div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div className="great-since">
+          <div className="overlap-3">
+            <div className="ellipse-3" />
+            <img className="unsplash" alt="Unsplash" src="/unsplash-bzqu01v-g54.svg" />
+            <div className="play-rounded-button">
+              <div className="overlap-group-3">
+                <div className="rectangle-4" />
+                <img className="group-5" alt="Group" src="/group.png" />
+              </div>
+            </div>
+          </div>
+          <div className="overlap-4">
+            <div className="rectangle-5" />
+            <p className="our-business-plan-is">
+              Our Business Plan is a written document describing a company&#39;s core business activites, Objectives,
+              and how it plans to achieve its goals. Our goal is to provide our client high quality Product with modern
+              idea accordingly their budgets and according thir reuirements.
+            </p>
+            <div className="group-6">
+              <p className="text-wrapper-18">Great Digital Product Agency since 2016</p>
+            </div>
+          </div>
+        </div>
+        <div className="happy-client">
+          <div className="overlap-5">
+            <img className="dot-3" alt="Dot" src="/dot-4.png" />
+            <div className="ellipse-4" />
+            <img className="unsplash-mtztgvdshfy" alt="Unsplash mtztgvdshfy" src="/unsplash-mtztgvdshfy.png" />
+          </div>
+          <div className="overlap-6">
+            <div className="ellipse-5" />
+            <div className="group-7">
+              <img className="unsplash-k" alt="Unsplash k" src="/unsplash-mez3pofgs-k.svg" />
+              <img className="unsplash-ohkelokqre" alt="Unsplash" src="/unsplash-ohkelokq3re.svg" />
+              <img className="unsplash-tll-hnjo" alt="Unsplash" src="/unsplash-3tll-97hnjo.svg" />
+              <img className="unsplash-wbedub-i" alt="Unsplash" src="/unsplash-w7b3edub-2i.svg" />
+              <img className="unsplash-et" alt="Unsplash et" src="/unsplash-et-78qkmmqs.svg" />
+              <img className="unsplash-anudmpilw" alt="Unsplash" src="/unsplash-6anudmpilw4.svg" />
+              <img className="unsplash-dupkifda" alt="Unsplash" src="/unsplash-d1upkifd04a.svg" />
+              <img className="unsplash-oymvtwfu" alt="Unsplash" src="/unsplash-o3ymvt7wf9u.svg" />
+            </div>
+          </div>
+          <p className="text-wrapper-19">Several selected clients, who already believe in our service.</p>
+          <p className="text-wrapper-20">What our happy client say</p>
+          <div className="group-8">
+            <div className="text-wrapper-21">Matthew Paul</div>
+            <p className="text-wrapper-22">
+              Perfect, very good job! Thank you for the amazing design and work. Really impressed with the high quality
+              and quick turnaround time. Highly recommend.
+            </p>
+            <div className="ellipse-6" />
+            <div className="ellipse-7" />
+            <div className="ellipse-8" />
+            <div className="ellipse-9" />
+            <div className="ellipse-10" />
+          </div>
+        </div>
+        <div className="newsletter">
+          <div className="overlap-7">
+            <div className="group-9" />
+            <div className="rectangle-6" />
+            <div className="rectangle-7" />
+            <img className="rectangle-8" alt="Rectangle" src="/rectangle-31.svg" />
+            <div className="group-10">
+              <div className="overlap-group-4">
+                <div className="text-wrapper-23">Enter your email address..</div>
+                <div className="frame">
+                  <div className="text-wrapper-24">Contact Now</div>
+                </div>
+              </div>
+            </div>
+            <p className="text-wrapper-25">I will update good news and promotion service not spam</p>
+            <div className="text-wrapper-26">Subscribe Newsletter</div>
+          </div>
+        </div>
+        <footer className="footer">
+          <p className="a-studio-2">
+            <span className="text-wrapper">A+</span>
+            <span className="span"> Studio</span>
+          </p>
+          <div className="text-wrapper-27">What We Do</div>
+          <div className="text-wrapper-28">Company</div>
+          <div className="text-wrapper-29">Support</div>
+          <div className="text-wrapper-30">Contact</div>
+          <p className="web-design-app">
+            Web Design <br />
+            App Design
+            <br />
+            Social Media Manage
+            <br />
+            Market Analysis Project
+          </p>
+          <div className="about-us-career">
+            About Us
+            <br />
+            Career
+            <br />
+            Become Investor
+          </div>
+          <div className="FAQ-policy-business">
+            FAQ
+            <br />
+            Policy
+            <br />
+            Business
+          </div>
+          <div className="whatsapp-support">
+            WhatsApp
+            <br />
+            Support 24
+          </div>
+          <img className="line" alt="Line" src="/line-6.svg" />
+          <img className="line-2" alt="Line" src="/line-8.svg" />
+          <p className="text-wrapper-31">
+            Leading digital agency with solid design and development expertise. We build readymade websites, mobile
+            applications, and elaborate online business services.
+          </p>
+          <img className="facebook" alt="Facebook" src="/facebook.svg" />
+          <img className="twitter" alt="Twitter" src="/twitter.svg" />
+          <img className="linkedin" alt="Linkedin" src="/linkedin.svg" />
+          <img className="line-3" alt="Line" src="/line-7.png" />
+          <p className="text-wrapper-32">Copyright © 2022 Avi Yansah</p>
+        </footer>
       </div>
-
-      <div className="relative flex place-items-center before:absolute before:h-[300px] before:w-[480px] before:-translate-x-1/2 before:rounded-full before:bg-gradient-radial before:from-white before:to-transparent before:blur-2xl before:content-[''] after:absolute after:-z-20 after:h-[180px] after:w-[240px] after:translate-x-1/3 after:bg-gradient-conic after:from-sky-200 after:via-blue-200 after:blur-2xl after:content-[''] before:dark:bg-gradient-to-br before:dark:from-transparent before:dark:to-blue-700 before:dark:opacity-10 after:dark:from-sky-900 after:dark:via-[#0141ff] after:dark:opacity-40 before:lg:h-[360px] z-[-1]">
-        <Image
-          className="relative dark:drop-shadow-[0_0_0.3rem_#ffffff70] dark:invert"
-          src="/next.svg"
-          alt="Next.js Logo"
-          width={180}
-          height={37}
-          priority
-        />
-      </div>
-
-      <div className="mb-32 grid text-center lg:max-w-5xl lg:w-full lg:mb-0 lg:grid-cols-4 lg:text-left">
-        <a
-          href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Docs{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Find in-depth information about Next.js features and API.
-          </p>
-        </a>
-
-        <a
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Learn{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Learn about Next.js in an interactive course with&nbsp;quizzes!
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Templates{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Explore starter templates for Next.js.
-          </p>
-        </a>
-
-        <a
-          href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template&utm_campaign=create-next-app"
-          className="group rounded-lg border border-transparent px-5 py-4 transition-colors hover:border-gray-300 hover:bg-gray-100 hover:dark:border-neutral-700 hover:dark:bg-neutral-800/30"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <h2 className={`mb-3 text-2xl font-semibold`}>
-            Deploy{' '}
-            <span className="inline-block transition-transform group-hover:translate-x-1 motion-reduce:transform-none">
-              -&gt;
-            </span>
-          </h2>
-          <p className={`m-0 max-w-[30ch] text-sm opacity-50`}>
-            Instantly deploy your Next.js site to a shareable URL with Vercel.
-          </p>
-        </a>
-      </div>
-    </main>
+    </div>
   )
 }
